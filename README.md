@@ -1,7 +1,7 @@
-# provider-template
+# provider-argoworkflows
 
-`provider-template` is a minimal [Crossplane](https://crossplane.io/) Provider
-that is meant to be used as a template for implementing new Providers. It comes
+`provider-argoworkflows` is a minimal [Crossplane](https://crossplane.io/) Provider
+that is meant to be used as a argoworkflows for implementing new Providers. It comes
 with the following features that are meant to be refactored:
 
 - A `ProviderConfig` type that only points to a credentials `Secret`.
@@ -11,11 +11,11 @@ with the following features that are meant to be refactored:
 
 ## Developing
 
-1. Use this repository as a template to create a new one.
+1. Use this repository as a argoworkflows to create a new one.
 1. Run `make submodules` to initialize the "build" Make submodule we use for CI/CD.
 1. Rename the provider by running the following command:
 ```shell
-  export provider_name=MyProvider # Camel case, e.g. GitHub
+  export provider_name=ArgoWorkflows # Camel case, e.g. GitHub
   make provider.prepare provider=${provider_name}
 ```
 4. Add your new type by running the following command:
